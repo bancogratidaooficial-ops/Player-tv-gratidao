@@ -1,0 +1,16 @@
+{
+  "name": "V86 PLAY LIST - Músicas e Vídeos",
+  "short_name": "V86 PLAY",
+  "description": "Player offline para suas músicas e vídeos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/138/138177.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

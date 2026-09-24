@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade - V86 PLAY</title>
+<style>
+body{font-family:Arial, sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.8;background:#fff;color:#111}
+h1{border-bottom:4px solid #FFD700;padding-bottom:10px}
+h2{color:#111;margin-top:30px}
+.box{background:#f5f5f5;border:2px solid #FFD700;border-radius:12px;padding:15px;margin:15px 0}
+button{padding:12px 20px;border-radius:10px;border:none;font-weight:bold;cursor:pointer;margin:5px}
+a{color:#000;text-decoration:underline}
+</style>
+</head>
+<body>
+<h1>🔒 Política de Privacidade - V86 PLAY LIST</h1>
+<p><b>Atualizado em 24/09/2026</b></p>
+
+<div class="box">
+<b>Resumo:</b> Seus arquivos de música e vídeo ficam salvos apenas no seu celular (IndexedDB). Não enviamos para nenhum servidor. Usamos Google AdSense para anúncios.
+</div>
+
+<h2>1. Quais dados coletamos?</h2>
+<ul>
+<li><b>Arquivos locais:</b> Ficam no seu aparelho, você pode apagar a qualquer momento no botão Resetar.</li>
+<li><b>Dados de navegação anônimos:</b> O Google AdSense e Google Analytics podem coletar IP, tipo de navegador e páginas visitadas para exibir anúncios.</li>
+</ul>
+
+<h2>2. Cookies e Publicidade (Google AdSense)</h2>
+<p>Usamos cookies do Google (DoubleClick DART) para mostrar anúncios personalizados baseados em visitas anteriores a este site e outros sites.</p>
+<p>Você pode desativar a personalização a qualquer momento em:</p>
+<ul>
+<li><a href="https://www.google.com/settings/ads" target="_blank">google.com/settings/ads</a></li>
+<li><a href="https://policies.google.com/technologies/ads" target="_blank">policies.google.com/technologies/ads</a></li>
+</ul>
+
+<h2>3. ⚙️ CONTROLES DE PRIVACIDADE (LGPD / GDPR)</h2>
+<div class="box" style="text-align:center">
+<p>Gerencie aqui:</p>
+<button onclick="localStorage.setItem('cookies','sim');alert('Cookies aceitos!');location.href='index.html'" style="background:#00d26a;color:#fff">✅ Aceitar Cookies</button>
+<button onclick="localStorage.setItem('cookies','nao');alert('Cookies recusados! Verá anúncios não personalizados.');location.href='index.html'" style="background:#ff2a2a;color:#fff">❌ Recusar Anúncios Personalizados</button>
+<br><br>
+<button onclick="if(confirm('Apagar TODAS as músicas e vídeos salvos no celular?')){indexedDB.deleteDatabase('V86DB');indexedDB.deleteDatabase('V86VideoDB');localStorage.clear();alert('Dados apagados com sucesso - LGPD')}" style="background:#111;color:#FFD700;border:2px solid #FFD700">🗑️ Apagar Meus Dados (Direito ao Esquecimento)</button>
+</div>
+
+<h2>4. Seus direitos - LGPD</h2>
+<p>Você tem direito a acessar, corrigir e excluir seus dados. Use o botão acima ou entre em contato.</p>
+
+<h2>5. Contato do Responsável</h2>
+<p>Email: <b>SEUEMAIL@gmail.com</b> - TROQUE AQUI PELO SEU EMAIL REAL</p>
+
+<p><br><a href="index.html">← Voltar ao Player</a> | <a href="termos.html">Termos</a> | <a href="contato.html">Contato</a></p>
+</body>
+</html>
